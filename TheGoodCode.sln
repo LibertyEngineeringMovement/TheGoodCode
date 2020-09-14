@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADBB34AB-5DF9-4183-8B4F-5BF81E9806FE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGoodReturnModel", "TheGoodReturnModel\TheGoodReturnModel.csproj", "{E160871F-7C3F-4A87-AFC8-A0B7EFCA29AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGoodReturnModelTests", "TheGoodReturnModelTests\TheGoodReturnModelTests.csproj", "{DEFB7208-DC66-4E48-AAD7-182F1AB0D452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E160871F-7C3F-4A87-AFC8-A0B7EFCA29AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E160871F-7C3F-4A87-AFC8-A0B7EFCA29AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E160871F-7C3F-4A87-AFC8-A0B7EFCA29AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E160871F-7C3F-4A87-AFC8-A0B7EFCA29AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFB7208-DC66-4E48-AAD7-182F1AB0D452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFB7208-DC66-4E48-AAD7-182F1AB0D452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFB7208-DC66-4E48-AAD7-182F1AB0D452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFB7208-DC66-4E48-AAD7-182F1AB0D452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1953B2CB-7995-49F6-9217-19C6CC9DDE8F}
+	EndGlobalSection
+EndGlobal
