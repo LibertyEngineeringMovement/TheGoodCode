@@ -7,11 +7,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		azure-pipelines.yml = azure-pipelines.yml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGoodReturnModel", "TheGoodReturnModel\TheGoodReturnModel.csproj", "{E160871F-7C3F-4A87-AFC8-A0B7EFCA29AA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGoodReturnModelTests", "TheGoodReturnModelTests\TheGoodReturnModelTests.csproj", "{DEFB7208-DC66-4E48-AAD7-182F1AB0D452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{E737DB43-EBE4-41AB-8CE2-B40E31A1DE87}"
+	ProjectSection(SolutionItems) = preProject
+		Images\ExampleOfCodeReduction.jpg = Images\ExampleOfCodeReduction.jpg
+		Images\ReturnModel.jpg = Images\ReturnModel.jpg
+		Images\SampleCode.jpg = Images\SampleCode.jpg
+		Images\ToReturn.jpg = Images\ToReturn.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +39,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E737DB43-EBE4-41AB-8CE2-B40E31A1DE87} = {ADBB34AB-5DF9-4183-8B4F-5BF81E9806FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1953B2CB-7995-49F6-9217-19C6CC9DDE8F}
