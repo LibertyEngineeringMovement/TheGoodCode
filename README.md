@@ -19,3 +19,9 @@ Libraries to simplify basic standardizations.
 
 ### Return<> model extension method
 <image src="Images/ReturnModel.jpg"/>
+
+Other key files
+* [Code of Conduct](CODE_OF_CONDUCT.md)
+* [CONTRIBUTING](CONTRIBUTING.md)
+* [LICENSE](LICENSE)
+* [SECURITY](SECURITY.md)
