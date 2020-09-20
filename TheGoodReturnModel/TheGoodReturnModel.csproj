@@ -24,7 +24,7 @@ A bonus feature is the RunAsync feature that takes non-Task function delegates, 
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="latest" />
   </ItemGroup>
 
   <ItemGroup>
