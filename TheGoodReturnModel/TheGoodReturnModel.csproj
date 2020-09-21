@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/LibertyEngineeringMovement/TheGoodCode</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Description>This library provides 3 major functions. 
 1. A clean reliable model for predictable returns.
 2. A model builders that runs off of function delegates.
@@ -19,7 +19,8 @@
 A bonus feature is the RunAsync feature that takes non-Task function delegates, and wraps them in a Task.</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>TheGoodReturn032.png</PackageIcon>
-    <PackageReleaseNotes>1.1.0 - Rename ToReturn&lt;&gt; to ToReturnAsync&lt;&gt;; Add ToReturn&lt;&gt; that is not Task Based.
+    <PackageReleaseNotes>1.2.0 - Moved RunAsync into its own lib.
+1.1.0 - Rename ToReturn&lt;&gt; to ToReturnAsync&lt;&gt;; Add ToReturn&lt;&gt; that is not Task Based.
 1.0.1 - Downgrade .Net Standard from 2.1 to 2.0
 1.0.0 - Initial Release</PackageReleaseNotes>
     <ApplicationIcon>TheGoodReturn.ico</ApplicationIcon>

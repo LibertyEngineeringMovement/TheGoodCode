@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/LibertyEngineeringMovement/TheGoodCode</PackageProjectUrl>
     <PackageIcon>TheGoodReturn256.png</PackageIcon>
     <PackageTags>C#, Async</PackageTags>
-    <PackageReleaseNotes>Segregated the Code from TheGoodReturnModel.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.2.0 - Segregated the Code from TheGoodReturnModel, which I also released a 1.2.0.</PackageReleaseNotes>
     <ApplicationIcon>TheGoodReturn.ico</ApplicationIcon>
   </PropertyGroup>
 
