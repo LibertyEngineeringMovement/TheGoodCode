@@ -3,7 +3,7 @@ using System.Dynamic;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-namespace TheGoodReturnModel
+namespace TheGoodAsyncWrapper
 {
     /// <summary>
     /// Async Wrapper Extensions.
@@ -18,12 +18,30 @@ namespace TheGoodReturnModel
         /// <param name="parent">The parent.</param>
         /// <param name="act">The act.</param>
         /// <returns></returns>
-        public static Task RunAsymc(
+        public static Task RunAsync(
             this Action act
             )
         {
             return Task.Run(act);
         }
+
+        public static Task RunAsync<T>(
+            this Action<T> act,
+            T value
+        )
+        {
+            try
+            {
+                act(value);
+                return Task.CompletedTask;
+            }
+            catch (Exception ex) 
+            {
+                return Task.FromException(ex);
+            }
+            
+        }
+
 
         /// <summary>
         /// Runs the asynchronous.

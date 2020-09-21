@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.2.0</Version>
+    <Authors>Brian Webb</Authors>
+    <Company>Liberty Engineering Movement (aka Brian Webb)</Company>
+    <Description>This converts all sync functions into async functions. Calls as simple as (X+Y) can now be (int X,int Y, int Z)=&gt;(X+Y).RunAsync(valX,valY); or make extensively complex functions, and still run them async with a simple extension.</Description>
+    <Copyright>2020 Brian Webb</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/LibertyEngineeringMovement/TheGoodCode</PackageProjectUrl>
+    <PackageIcon>TheGoodReturn256.png</PackageIcon>
+    <PackageTags>C#, Async</PackageTags>
+    <PackageReleaseNotes>Segregated the Code from TheGoodReturnModel.</PackageReleaseNotes>
+    <ApplicationIcon>TheGoodReturn.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="*" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\Images\TheGoodReturn256.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TheGoodAsyncWrapper\TheGoodAsyncWrapper.csproj" />
-    <ProjectReference Include="..\TheGoodReturnModel\TheGoodReturnModel.csproj" />
   </ItemGroup>
 
 </Project>
