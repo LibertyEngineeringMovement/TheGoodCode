@@ -23,15 +23,36 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{E737DB
 		Images\ToReturn.jpg = Images\ToReturn.jpg
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGoodReturnWebModel", "TheGoodReturnWebModel\TheGoodReturnWebModel.csproj", "{B167D4D3-1049-4258-8B45-99B70E8C76D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGoodReturnWebModel", "TheGoodReturnWebModel\TheGoodReturnWebModel.csproj", "{B167D4D3-1049-4258-8B45-99B70E8C76D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGoodAsyncWrapper", "TheGoodAsyncWrapper\TheGoodAsyncWrapper.csproj", "{5FAC794E-BB2C-463E-B2D4-6C4D1AE5AA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGoodAsyncWrapper", "TheGoodAsyncWrapper\TheGoodAsyncWrapper.csproj", "{5FAC794E-BB2C-463E-B2D4-6C4D1AE5AA73}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{34652561-1AD6-4FBD-960C-29389304A504}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{13F57CC3-F765-4D2F-96D3-1009F793D807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGoodAsyncWrapperTests", "TheGoodAsyncWrapperTests\TheGoodAsyncWrapperTests.csproj", "{DF227C24-A017-4927-A3F2-8D332B8E2694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGoodAsyncWrapperTests", "TheGoodAsyncWrapperTests\TheGoodAsyncWrapperTests.csproj", "{DF227C24-A017-4927-A3F2-8D332B8E2694}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Assets", "Assets\", "{E74D84EC-7C38-4AAC-B719-F8EBB99E775D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51539"
+		Debug.AspNetCompiler.PhysicalPath = "Assets\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51539\"
+		Debug.AspNetCompiler.Updateable = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51539"
+		Release.AspNetCompiler.PhysicalPath = "Assets\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51539\"
+		Release.AspNetCompiler.Updateable = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51539"
+		SlnRelativePath = "Assets\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +80,10 @@ Global
 		{DF227C24-A017-4927-A3F2-8D332B8E2694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF227C24-A017-4927-A3F2-8D332B8E2694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF227C24-A017-4927-A3F2-8D332B8E2694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74D84EC-7C38-4AAC-B719-F8EBB99E775D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74D84EC-7C38-4AAC-B719-F8EBB99E775D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74D84EC-7C38-4AAC-B719-F8EBB99E775D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74D84EC-7C38-4AAC-B719-F8EBB99E775D}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +95,7 @@ Global
 		{B167D4D3-1049-4258-8B45-99B70E8C76D8} = {34652561-1AD6-4FBD-960C-29389304A504}
 		{5FAC794E-BB2C-463E-B2D4-6C4D1AE5AA73} = {34652561-1AD6-4FBD-960C-29389304A504}
 		{DF227C24-A017-4927-A3F2-8D332B8E2694} = {13F57CC3-F765-4D2F-96D3-1009F793D807}
+		{E74D84EC-7C38-4AAC-B719-F8EBB99E775D} = {34652561-1AD6-4FBD-960C-29389304A504}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1953B2CB-7995-49F6-9217-19C6CC9DDE8F}
