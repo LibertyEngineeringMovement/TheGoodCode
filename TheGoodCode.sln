@@ -43,6 +43,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Assets", "Assets\", "{E74D8
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51539"
+		SlnRelativePath = "Assets\"
 	EndProjectSection
 EndProject
 Global
