@@ -18,7 +18,7 @@
 
 A bonus feature is the RunAsync feature that takes non-Task function delegates, and wraps them in a Task.</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageIcon>TheGoodReturn032.png</PackageIcon>
+    <PackageIcon>TheGoodReturn256.png</PackageIcon>
     <PackageReleaseNotes>1.2.0 - Moved RunAsync into its own lib.
 1.1.0 - Rename ToReturn&lt;&gt; to ToReturnAsync&lt;&gt;; Add ToReturn&lt;&gt; that is not Task Based.
 1.0.1 - Downgrade .Net Standard from 2.1 to 2.0
@@ -31,7 +31,7 @@ A bonus feature is the RunAsync feature that takes non-Task function delegates, 
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\Images\TheGoodReturn032.png">
+    <None Include="..\Assets\TheGoodReturn256.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

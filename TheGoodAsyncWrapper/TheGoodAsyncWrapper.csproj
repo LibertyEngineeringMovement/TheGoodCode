@@ -22,7 +22,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <None Include="..\Images\TheGoodReturn256.png">
+    <None Include="..\Assets\TheGoodReturn256.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
