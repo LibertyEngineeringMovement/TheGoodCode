@@ -1,8 +1,9 @@
 # TheGoodCode
 Libraries to simplify basic standardizations.
 * ![.NET Core](https://github.com/LibertyEngineeringMovement/TheGoodCode/workflows/.NET%20Core/badge.svg)
+* ![Attention Level](https://img.shields.io/badge/My%20Attention%20Level-Medium-blue)
 * Note: ToReturn has been changed in V1.1.0
-* Please read note below.
+* Please read notes below.
 
 ## Code implementations review
 ### RunAsync Extension
@@ -29,6 +30,7 @@ Libraries to simplify basic standardizations.
     Assert.AreEqual(t4.Metadata.message, "Success");
 ```
 #### Return Model
+See bulleted note below.
 ```
     public class Return<T>
     {
@@ -39,6 +41,7 @@ Libraries to simplify basic standardizations.
 ```
 #### Note
 Since you get to control the return state when coding for a Task, we have implemented more than one state return.
+* ![Changes](https://img.shields.io/badge/Roadmap%20Change-Critical%20%7C%20Not%20Implimented-red) Note that this is changing to be a straight int. The reason is to support Http Response Status Codes.
 ```
     [Flags]
     public enum ReturnState
